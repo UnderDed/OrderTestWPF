@@ -1,0 +1,17 @@
+﻿<Window x:Class="OrderTestWPF.MyForms.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OrderTestWPF.MyForms"
+        mc:Ignorable="d"
+        Title="AdminWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="625,0,0,0">
+            <Button x:Name="btnExit" Click="btnExit_Click"
+                    Background="LightGreen">Выход</Button>
+            <Button Name="btnAddNewProduct" Click="btnAddNewProduct_Click"
+                    Background="Green">Добавить новый продукт</Button>
+        </StackPanel>
+    </Grid>
+</Window>
